@@ -9,23 +9,62 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/img/JadedAlbumCover.jpg?h=dc81f0609edae8e14b693fc57f3370d6">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css?h=b486ae8ecf6c38e7b0073c57ef30f22f">
-    <link rel="stylesheet" href="assets/css/styles.css?h=a9d184f541639b992cb0ed7f7229b666">
+    <link rel="stylesheet" href="assets/css/styles.css?h=7c67888584c86c88b717ce4e76cf0c63">
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <div>
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark navigation-clean-button">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark navigation-clean-button" id="navbar">
             <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                    <ul class="nav navbar-nav ml-auto" id="left-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Albums</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Gallery</a></li>
-                    </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></span></div>
+                    </ul>
+                    <div id="nav-spacer"></div>
+                    <a href="index.html">
+                        <div id="nav-triangle" class="nav-triangle arrow-down"></div>
+                    </a>
+                    <ul class="nav navbar-nav mr-auto" id="right-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Store</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <div class="arrow-down"></div>
+    </div>
+    <div id="nav-triangle2" class="nav-triangle arro"></div>
+    <div id="hero-container">
+        <div id="hero-div">
+            <div id="band-name-div"><span id="band-name">The Couch Collective</span></div>
+            <div class="text-center" id="triangle-image-container">
+                <div id="triangle-image" style="padding-top: 6px;">
+                    <div id="triangle-text"><span style="font-family: 'Alfa Slab One', cursive;color: white;">This is the small description that will go on the front...</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="recent-album-title-bg">
+        <div class="text-center">
+            <p class="text-uppercase" id="recent-album-title-p" style="margin-bottom: 0px;">Music<span id="recent-album-title">Recent Music</span><div id="recent-music-hr">
+    <hr>
+</div></p>
+        </div>
+    </div>
+    <div class="row" id="recent-album-row" style="padding-left: 13px;">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2" style="padding-right: 0;padding-left: 0px;"><a href="#"><img class="album-image" src="assets/img/JadedAlbumCover.jpg?h=dc81f0609edae8e14b693fc57f3370d6"></a></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2" style="padding-right: 0;padding-left: 0px;"><a href="#"><img class="album-image" src="https://images.template.net/wp-content/uploads/2016/05/17051042/Sample-Album-Cover-Template-Download.jpg"></a></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2" style="padding-right: 0;padding-left: 0px;"><a href="#"><img class="album-image" src="https://images.template.net/wp-content/uploads/2016/05/17050847/Tech-Mixtape-Album-Cover-Template-Example.jpg"></a></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2" style="padding-right: 0;padding-left: 0px;"><a href="#"><img class="album-image" src="https://images.template.net/wp-content/uploads/2016/05/17051629/Minimal-Alternative-CD-Album-Template-Example.jpg"></a></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2" style="padding-right: 0;padding-left: 0px;"><a href="#"><img class="album-image" src="https://images.template.net/wp-content/uploads/2016/05/17051931/Sample-Light-Streaks-Album-Cover-Template.jpg"></a></div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2" style="padding-right: 0;padding-left: 0px;"><a href="#"><img class="album-image" src="https://images.template.net/wp-content/uploads/2016/05/17052320/Big-Dad-Mixtape-Sample-Album-Cover-Template.jpg"></a></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
